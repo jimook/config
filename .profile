@@ -28,6 +28,6 @@ fi
 
 if [ -d "/usr/local/go" ]; then
 	export GOROOT="/usr/local/go"
-	export PATH="$PATH:$GOROOT/bin"
 	export GOPATH="$HOME/go"
+	export PATH="$PATH:$GOROOT/bin:$GOPATH/bin"
 fi
